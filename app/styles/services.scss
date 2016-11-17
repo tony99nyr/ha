@@ -1,0 +1,41 @@
+span.price{
+	font-size: 14px;
+	color: rgb(145, 145, 145);
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.large-bottom-margin{
+	height: 70px;
+}
+
+.services-page{
+	hr{
+		margin-top:35px;
+		margin-bottom:35px;
+	}
+	img	{
+		margin: 10px;
+		margin-top:30px;
+		&.show-when-small{
+			margin: 20px;
+		}
+	}
+
+	h2{
+		margin-bottom:0;
+		font-size: 30px;
+	}
+
+	h3{
+		font-size: 18px;
+	}
+}
+
+.img-auto-width-70{
+	max-width: 70%;
+}
+
+.img-auto-width-90{
+	max-width: 90%;
+}
